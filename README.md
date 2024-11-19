@@ -40,35 +40,37 @@ To get started with the project, follow these steps:
 
 This command will install all dependencies listed in the package.json file.
 
-## Usage
+# Usage
 Here are different ways of using the web.
 
 ## Development Mode
 To start the development server and view the project in your browser, run the following command:
+    
     ```bash
     npm start
     ```
-    
+
 This will start the Webpack development server, automatically opening the project in your default web browser. The server will watch for changes in your source files (JavaScript, HTML, CSS) and automatically reload the page when changes are detected.
 
 ## Production Mode (Optional)
 If you want to build the project for production (minified and optimized for deployment), run the following command:
+    
     ```bash
-    npm run build
+    npm build run
     ```
 
 This will create a dist/ folder containing the bundled and minified files, ready for deployment.
 
-# Development Workflow
+## Development Workflow
 The project uses Webpack Dev Server, which provides Hot Module Replacement (HMR) for faster development. When you modify the source files (e.g., index.js, style.css, or template.html), the page will automatically reload with the updated content.
 
 ## Folder Structure
 Here's an overview of the project folder structure:
 
-src/: Source files (HTML, JS, CSS, SCSS, etc.)  
-index.js: The main entry point for JavaScript.  
-template.html: The HTML template for the base structure of the page.  
-style.css / style.scss: CSS/SCSS files for styling.  
-dist/: Compiled output files (created after running npm run build). Contains the bundled JavaScript and the generated HTML file.  
-webpack.config.js: Configuration file for Webpack.  
-.gitignore: Specifies which files and directories Git should ignore (e.g., node_modules, dist).  
+- src/: Source files (HTML, JS, CSS, SCSS, etc.)  
+- index.js: The main entry point for JavaScript.  
+- template.html: The HTML template for the base structure of the page.  
+- style.css / style.scss: CSS/SCSS files for styling.  
+- dist/: Compiled output files (created after running npm run build). Contains the bundled JavaScript and the generated HTML file.  
+- webpack.config.js: Configuration file for Webpack.  
+- .gitignore: Specifies which files and directories Git should ignore (e.g., node_modules, dist).  
