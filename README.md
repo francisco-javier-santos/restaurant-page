@@ -65,10 +65,10 @@ The project uses Webpack Dev Server, which provides Hot Module Replacement (HMR)
 ## Folder Structure
 Here's an overview of the project folder structure:
 
-## src/: Source files (HTML, JS, CSS, SCSS, etc.)
-## index.js: The main entry point for JavaScript.
-## template.html: The HTML template for the base structure of the page.
-## style.css / style.scss: CSS/SCSS files for styling.
-## dist/: Compiled output files (created after running npm run build). Contains the bundled JavaScript and the generated HTML file.
-## webpack.config.js: Configuration file for Webpack.
-## .gitignore: Specifies which files and directories Git should ignore (e.g., node_modules, dist).
+src/: Source files (HTML, JS, CSS, SCSS, etc.)  
+index.js: The main entry point for JavaScript.  
+template.html: The HTML template for the base structure of the page.  
+style.css / style.scss: CSS/SCSS files for styling.  
+dist/: Compiled output files (created after running npm run build). Contains the bundled JavaScript and the generated HTML file.  
+webpack.config.js: Configuration file for Webpack.  
+.gitignore: Specifies which files and directories Git should ignore (e.g., node_modules, dist).  
