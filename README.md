@@ -45,7 +45,7 @@ Here are different ways of using the web.
 
 ## Development Mode
 To start the development server and view the project in your browser, run the following command:
-    
+
     ```bash
     npm start
     ```
@@ -54,7 +54,7 @@ This will start the Webpack development server, automatically opening the projec
 
 ## Production Mode (Optional)
 If you want to build the project for production (minified and optimized for deployment), run the following command:
-    
+
     ```bash
     npm build run
     ```
