@@ -29,10 +29,6 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i, // Para manejar imágenes
         type: "asset/resource",
       },
-      {
-        test: /\.scss$/i, // Para manejar SCSS/SASS
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
     ],
   },
 };
